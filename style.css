@@ -10,46 +10,52 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  background-color: rgb(232 121 249);
+  background-color: rgb(212 212 212);
 }
 
-.form-container{
+.form-container {
   height: 500px;
   width: 450px;
   padding: 10px;
-  margin: 10px;
-  border: solid;
-  display:flex;
+  margin: auto;
+  display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .form-label-header {
-  font-size: 24px;
-  font-weight: 700;
-  font-family: 'Cormorant Garamond', serif;}
+  font-size: 3em;
+
+  font-family: "Cormorant Garamond", serif;
+}
 
 .form-label {
-  font-size: 16px;
+  font-size: 19px;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
 }
 
 .form-input {
   margin: 10px;
-  height: 25px;
-  background-color: transparent;
-  border-width :0 0 4px 0;
-  border-style: solid; 
-  
-  
+  border-radius: 0.375rem;
+  background-color: inherit;
+  height: 30px;
+  padding: 0 5px;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .button {
+  margin: 20px;
   background-color: rgb(99 102 241);
   border-radius: 10px;
-  width: 100px;
+  width: 150px;
+  height: 30px;
 }
 
-/* flex items-center container max-h-screen max-w-full bg-red-600 */
-/* box-border h-50 w-32 p-5 border-5 border-black border-solid */
-/* bg-indigo-500 ... */
+.button:hover {
+  cursor: pointer;
+}
