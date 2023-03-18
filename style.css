@@ -13,24 +13,35 @@
   background-color: rgb(232 121 249);
 }
 
-.container-form {
-  height: 50px;
-  width: 32px;
+.form-container{
+  height: 500px;
+  width: 450px;
   padding: 10px;
   margin: 10px;
+  border: solid;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .form-label-header {
-  font-size: large;
+  font-size: 24px;
   font-weight: 700;
-}
+  font-family: 'Cormorant Garamond', serif;}
 
 .form-label {
   font-size: 16px;
 }
 
 .form-input {
-  margin: 10px 0;
+  margin: 10px;
+  height: 25px;
+  background-color: transparent;
+  border-width :0 0 4px 0;
+  border-style: solid; 
+  
+  
 }
 
 .button {
