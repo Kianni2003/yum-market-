@@ -17,7 +17,7 @@
   height: 500px;
   width: 450px;
   padding: 10px;
-  margin: 10px;
+  margin: auto;
   border: solid;
   display:flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .form-input {
-  margin: 10px;
+  margin: 10px;padding: 5px;
   height: 25px;
   background-color: transparent;
   border-width :0 0 4px 0;
@@ -50,6 +50,7 @@
   width: 100px;
 }
 
-/* flex items-center container max-h-screen max-w-full bg-red-600 */
-/* box-border h-50 w-32 p-5 border-5 border-black border-solid */
-/* bg-indigo-500 ... */
+.signup-link{
+  margin: 10px;
+  text-decoration: none;
+}
