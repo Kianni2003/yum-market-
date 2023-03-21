@@ -4,7 +4,6 @@
 }
 
 .container {
-  border-style: solid;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,21 +12,15 @@
   background-color: rgb(212 212 212);
 }
 
-<<<<<<< HEAD
-.form-container,signup-container{
-=======
-.form-container {
->>>>>>> 0704b2f7a7fa955f0e3cb57376d88a77d6df6254
+.form-container,
+.signup-container {
   height: 500px;
   width: 450px;
   padding: 10px;
   margin: auto;
-<<<<<<< HEAD
-  border: solid;
-  display:flex;
-=======
+  /* border: solid; */
   display: flex;
->>>>>>> 0704b2f7a7fa955f0e3cb57376d88a77d6df6254
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -39,48 +32,52 @@
 }
 
 .form-label {
-  font-size: 19px;
+  /* font-size: 19px;
   height: 25px;
-  margin: 10px;
+  margin: 10px;*/
   padding: 10px;
+  font-weight: bold;
+  display: block;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .form-input {
-<<<<<<< HEAD
-  margin: 10px;padding: 5px;
-  height: 25px;
-  background-color: transparent;
-  border-width :0 0 4px 0;
-  border-style: solid; 
-  
-  
-=======
   margin: 10px;
   border-radius: 0.375rem;
-  background-color: inherit;
   height: 30px;
   padding: 0 5px;
   border-style: solid;
   border-width: 3px;
->>>>>>> 0704b2f7a7fa955f0e3cb57376d88a77d6df6254
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
 }
 
 .button {
-  margin: 20px;
-  background-color: rgb(99 102 241);
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
   border-radius: 10px;
   width: 150px;
-  height: 30px;
+  height: 40px;
 }
 
-<<<<<<< HEAD
-.signup-link{
+.signup-link {
   margin: 10px;
   text-decoration: none;
-=======
+}
 .button:hover {
   cursor: pointer;
->>>>>>> 0704b2f7a7fa955f0e3cb57376d88a77d6df6254
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.container-for-sign {
+  background-color: rgb(212 212 212);
+  height: 200vh;
 }
