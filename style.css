@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
 }
-li{list-style:none;}
-a{text-decoration: none;color: black;}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .container {
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -86,40 +90,76 @@ a{text-decoration: none;color: black;}
 }
 
 /* navbar */
-.navbar{
+.navbar {
   height: 80px;
-  width:100%;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  ;
+  width: 100%;
+  font-family: "Knewave";
 }
 
-.logo{
+.logo {
   height: 75px;
 
   border-radius: 10px;
 }
-.nav-items{
+.nav-items {
   display: inline-flex;
-  float:left;
+  float: left;
   padding: 20px;
   justify-content: space-between;
   height: 60px;
   text-align: center;
-
 }
-.search{
+
+.search {
   width: 300px;
- height: 50%; 
- padding: 5px;
- border-radius: 20px;
+  height: 50%;
+  padding: 5px;
+  border-radius: 20px;
 }
 
-.home-welcome{
-  width:100%;
-  height: 200px;
-  display: flex;flex-direction: column;
+.home-welcome {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-
+  text-align: center;
+  font-family: "Montserrat", "Helvetica";
+  background: rgb(212 212 212) url("https://bit.ly/4062lfM");
+  background-size: cover;
 }
-.logins{color:red;
+.logins {
+  color: red;
+}
+
+/* Adding hero image styling */
+.main-image {
+  height: 300px;
+  width: 100%;
+  border-style: solid;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+}
+
+/* Body div */
+.category-body {
+  height: 200px;
+  display: flex;
+}
+
+.category {
+  margin: 20px;
+  width: 25%;
+}
+
+.category-image {
+  width: 100%;
+  height: 100%;
+}
+
+.category-label {
+  font-family: "Montserrat", "Helvetica";
 }
