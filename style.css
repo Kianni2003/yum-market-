@@ -148,10 +148,12 @@ a {
 .category-body {
   height: 200px;
   display: flex;
+  text-align: center;
 }
 
 .category {
   margin: 20px;
+
   width: 25%;
 }
 
@@ -162,4 +164,10 @@ a {
 
 .category-label {
   font-family: "Montserrat", "Helvetica";
+}
+
+.category-title {
+  margin: 10px;
+  text-align: center;
+  font-family: "Prata";
 }
