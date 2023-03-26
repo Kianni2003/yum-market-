@@ -201,13 +201,11 @@ a{text-decoration: none;color: black;}
   /* width: 100%; */  
   display: flex;
   flex-wrap: wrap;
-  border-style: solid;
 margin-top: 25px;
 justify-content: space-between;
 }
 .card{
-  width: 205px;
-  border-style: solid;
+  width: 201px;
   margin: 10px;
   border-radius: 10%;
   padding: 10px;
